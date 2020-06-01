@@ -36,13 +36,13 @@ namespace limeandcode_dumpfile_analysis.Controllers
 			int i = 0;
 			while (true)
 			{
-				i++;
-
 				if (i == 1000)
 				{
 					break;
 				}
+				sb.Append(i);
 				Thread.Sleep(1000);
+				i++;
 			}
 
 			return new JsonResult(sb.ToString());
