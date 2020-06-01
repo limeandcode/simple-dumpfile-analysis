@@ -1,4 +1,4 @@
-# simple-dumpfile-analysis
+# simple-dumpfile-analysis demo project
 Simple dump file analysis demonstration
 
 Pre-requisites: Visual Studio 2019 (You can port the controller code to run on older versions)
